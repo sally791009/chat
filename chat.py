@@ -20,7 +20,7 @@ def convert(data):
 			continue
 		if person: #如果person有值(allen or tom)就運行new.append
 			new.append(person + ':' + line)
-	return new
+	return new #把運行結果存回data
 
 
 			
